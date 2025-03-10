@@ -6,7 +6,7 @@ from qiskit_nature.second_q.transformers import ActiveSpaceTransformer
 from qiskit_algorithms import VQE
 from qiskit.circuit.library import TwoLocal
 from qiskit_algorithms.optimizers import COBYLA
-from qiskit.primitives import Estimator  # Correct Estimator import for latest Qiskit
+from qiskit.primitives import Estimator 
 
 # 1️⃣ Define the H₂ molecule with PySCF
 driver = PySCFDriver(atom="H 0 0 0; H 0 0 0.735", basis="sto3g")
